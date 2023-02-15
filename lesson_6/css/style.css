@@ -1,0 +1,169 @@
+@import url("reset.css");
+
+.article{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+}
+.article__box{
+    max-width: 816px;
+    margin: 0 auto;
+    
+}
+.article__text-block{
+    margin-bottom: 80px;
+}
+.article__title{
+    font-weight: 700;
+    color: #212529;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 40px; 
+      
+}
+.article__title_first{
+    max-width: 400px;
+}
+
+.article__text{
+    margin-bottom: 30px;
+}
+.article__text_last{
+    margin-bottom: 0;
+}
+.article__img{
+    max-width: 100%;
+   margin-bottom: 80px;
+}
+.article__title_second{
+    max-width: 605px;
+}
+.gallery{
+    font-size: 0;
+    margin-bottom:80px ;
+}
+.gallery__img_1{
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+body{
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.78;
+    color: #6C757D;  
+}
+.post{
+    max-width: 1470px;
+    margin: 0 auto;
+    
+}
+.post__img{
+    margin-bottom: 100px;
+}
+.post__holder{
+    max-width: 816px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.post__text-first{
+    margin-bottom: 22px;
+}
+.post__title{
+    max-width: 100px;
+    font-weight: 700;
+    color: #212529;
+    font-size: 25px;
+    line-height: 1.6;
+    max-width: 605px;
+   
+}
+.post__gallery{
+    max-width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.post__gallery-img{
+    margin-right: 30px;
+    display: inline-block;
+    
+}
+.post__gallery-img_last{
+    margin-right: 0;
+}
+
+
+
+
+.box{
+    margin: 15px;
+    padding: 15px;
+    border: 5px solid rgb(255, 208, 0);
+}
+.border{
+    border: 3px solid rgb(14, 115, 14);
+    color: rgb(55, 55, 248);
+    padding: 12px;
+    margin-bottom: 30px;
+}
+.img__border{
+    border-top: 5px dashed rgb(243, 139, 222);
+    border-right: 5px solid rgb(37, 18, 33);
+    border-bottom: 10px dotted rgb(196, 19, 160);
+    border-left: 8px double rgb(108, 2, 86);
+    margin-bottom: 30px;
+}
+.outline{
+    color: rgb(11, 128, 112);   
+    outline: 10px solid yellowgreen;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.link{
+    border-bottom: 1px dashed rgb(72, 72, 240);
+    color: indianred;
+}
+.border-radius{
+    color: rgb(38, 116, 2);
+    border: 5px solid rgb(19, 63, 19);
+    border-radius: 50px 50px 200px 50px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px 10px rgb(69, 162, 69);
+    margin: 30px;
+}
+.opacity{
+    border: 3px solid rgb(2, 73, 2);
+    color: rgb(9, 9, 35);
+    padding: 10px;
+    margin-bottom: 30px;
+    opacity: 0.5;
+    visibility: hidden;
+}
+.button{
+    display: inline-block;
+    padding: 10px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 50%;
+    border: 5px solid rgb(108, 106, 106);
+    box-shadow: 0 5px 0 0 black;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    transition: all 0.35s;
+
+}
+.button:hover{
+    top: 3px;
+    box-shadow: 0 2px 0 0 black;
+}
